@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgb(255, 0, 221), rgb(23, 221, 235));
+}
+
+#gameContainer{    
+    text-align: center; 
+    margin-bottom: 100px;
+}
+
+#gameBoard{
+    border: 3px solid;
+    margin-top: 10px;
+    background-color: rgb(245, 161, 51);
+}
+
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+}
+
+#resetBtn{
+    font-family: "MV Boli" ;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: rgb(206, 199, 199);
+}
+
+.turnBtns{
+    display: none;
+}
+
+#resetBtn:hover{
+    box-shadow: 5px 5px 5px black;
+}
+#resetBtn:active{
+    background-color: rgb(95, 93, 93);
+}
+
+@media screen and (max-width:600px) {
+    .turnBtns{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .turnBtns button{
+        background-color: rgb(206, 199, 199);
+        padding: 10px 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: large;
+        border: 1px solid;
+    }
+    #upBtn{
+        margin-bottom: 5px;
+    }
+    #gameBoard{
+        width: 450px;
+        height: 300px;
+    }
+}
