@@ -45,7 +45,7 @@ body{
     background-color: rgb(95, 93, 93);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     .turnBtns{
         display: block;
         margin-bottom: 20px;
@@ -62,7 +62,7 @@ body{
         margin-bottom: 5px;
     }
     #gameBoard{
-        width: 450px;
+        width: 80vw;
         height: 300px;
     }
 }
